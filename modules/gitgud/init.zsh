@@ -1,4 +1,4 @@
-# ~/.zim/modules/mymodule/init.zsh
+# ~/.zim/modules/gitgud/init.zsh
 
 gco() {
   git checkout $(git branch | grep -v '\->' | sed 's/^[ *]*//' | sort -u | \
